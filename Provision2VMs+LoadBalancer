@@ -1,7 +1,7 @@
 #Este runbook provisions two virtual machines, an external load balancer, and various other resources required by the vms and LB
 #VARIABLES NECESARIAS A CREAR PREVIAMENTE:
 <!-- 
-Name: **VM1Name**
+Name: VM1Name
 Description: leave blank
 Type: String
 Value: vm1
