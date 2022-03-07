@@ -2,9 +2,9 @@
 #Basado en https://www.youtube.com/watch?v=jd49W33DxkQ
 
 # Define parameters, $StorageAccountName currently has a maximum limit of 15 characters
-$SubscriptionId = "55704fab-275d-4637-925a-b667662a45b1" #ha de ser un numero largo
-$ResourceGroupName = "rg-DPL-001"
-$StorageAccountName = "sttstfiles01"
+$SubscriptionId = "668*****-****-****-****-********45c2" #ha de ser un numero largo
+$ResourceGroupName = "rg-name"
+$StorageAccountName = "storage_account_name"
 $DomainAccountType = "ComputerAccount" # Default is set as ComputerAccount
 # If you don't provide the OU name as an input parameter, the AD identity that represents the storage account is created under the root directory.
 $OuDistinguishedName = "OU=AzureFiles,OU=Azure,OU=_it,DC=mydomain,DC=com"
